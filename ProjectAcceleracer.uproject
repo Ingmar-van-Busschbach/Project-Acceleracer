@@ -22,6 +22,15 @@
 				"Win64",
 				"Android"
 			]
+		},
+		{
+			"Name": "AutoSettings",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/7f6a777da2724d4a9a3dd551f03a3ad1"
+		},
+		{
+			"Name": "AdvancedSessions",
+			"Enabled": true
 		}
 	]
 }

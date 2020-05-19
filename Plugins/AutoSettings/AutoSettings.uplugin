@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 25,
+	"VersionName": "1.12",
+	"FriendlyName": "Auto Settings",
+	"Description": "Game options and input binding toolkit",
+	"Category": "Settings",
+	"CreatedBy": "Sam Bonifacio",
+	"CreatedByURL": "https://www.unrealengine.com/marketplace/en-US/profile/Sam+Bonifacio",
+	"DocsURL": "http://autosettings.readthedocs.io",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/7f6a777da2724d4a9a3dd551f03a3ad1",
+	"SupportURL": "https://forums.unrealengine.com/unreal-engine/marketplace/1354733-auto-settings-game-options-and-input-binding-toolkit",
+	"EngineVersion": "4.25.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AutoSettings",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		}
+	]
+}
