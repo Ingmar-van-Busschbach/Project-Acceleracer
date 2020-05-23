@@ -11,12 +11,12 @@
 		"MajorVersion": 4,
 		"MinorVersion": 25,
 		"PatchVersion": 0,
-		"Changelist": 12759524,
+		"Changelist": 13144385,
 		"CompatibleChangelist": 0,
 		"IsLicenseeVersion": 0,
-		"IsPromotedBuild": 1,
+		"IsPromotedBuild": 0,
 		"BranchName": "++UE4+Release-4.25",
-		"BuildId": "12759524",
+		"BuildId": "13144385",
 		"BuildVersion": ""
 	},
 	"BuildProducts": [
@@ -276,6 +276,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GooglePAD/GooglePAD.uplugin",
 			"Type": "UFS"
 		},
 		{
