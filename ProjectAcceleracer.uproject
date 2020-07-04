@@ -3,6 +3,16 @@
 	"EngineAssociation": "4.25",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "ProjectAcceleracer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "SteamVR",
@@ -30,10 +40,6 @@
 		},
 		{
 			"Name": "AdvancedSessions",
-			"Enabled": true
-		},
-		{
-			"Name": "SoundVisualizations",
 			"Enabled": true
 		},
 		{
