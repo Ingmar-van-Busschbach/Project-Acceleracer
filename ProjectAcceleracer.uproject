@@ -45,10 +45,6 @@
 		{
 			"Name": "TimeSynth",
 			"Enabled": true
-		},
-		{
-			"Name": "SoundVisualizations",
-			"Enabled": true
 		}
 	]
 }
