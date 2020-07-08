@@ -3,6 +3,16 @@
 	"EngineAssociation": "4.25",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "ProjectAcceleracer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "SteamVR",
@@ -33,7 +43,7 @@
 			"Enabled": true
 		},
 		{
-			"Name": "SoundVisualizations",
+			"Name": "TimeSynth",
 			"Enabled": true
 		}
 	]
