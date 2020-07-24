@@ -51,10 +51,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/TimeSynth/TimeSynth.uplugin",
 			"Type": "UFS"
 		},
