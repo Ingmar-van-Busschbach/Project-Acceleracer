@@ -10,9 +10,9 @@
 	{
 		"MajorVersion": 4,
 		"MinorVersion": 25,
-		"PatchVersion": 3,
-		"Changelist": 13942748,
-		"CompatibleChangelist": 13144385,
+		"PatchVersion": 0,
+		"Changelist": 13144385,
+		"CompatibleChangelist": 0,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE4+Release-4.25",
