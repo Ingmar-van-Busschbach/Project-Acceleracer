@@ -55,6 +55,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/EOSCore/EOSCore.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Paper2D.uplugin",
 			"Type": "UFS"
 		},
@@ -1497,6 +1501,10 @@
 		{
 			"Path": "$(EngineDir)/Content/SlateDebug/Fonts/LastResort.ttf",
 			"Type": "DebugNonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/EOSCore/Source/ThirdParty/EOSLibrary/Bin/EOSSDK-Win64-Shipping.dll",
+			"Type": "NonUFS"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll",
