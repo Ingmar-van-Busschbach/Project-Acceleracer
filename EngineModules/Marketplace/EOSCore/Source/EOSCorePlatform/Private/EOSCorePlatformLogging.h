@@ -1,6 +1,0 @@
-#define LogDebug(format, ...) UE_LOG(LogEOSCorePlatform, Log, TEXT("[%s] " format), *FString(__FUNCTION__), ##__VA_ARGS__)
-#define LogVerbose(format, ...) UE_LOG(LogEOSCorePlatform, Verbose, TEXT("[%s] " format), *FString(__FUNCTION__), ##__VA_ARGS__)
-#define LogVeryVerbose(format, ...) UE_LOG(LogEOSCorePlatform, VeryVerbose, TEXT("[%s] " format), *FString(__FUNCTION__), ##__VA_ARGS__)
-#define LogError(format, ...) UE_LOG(LogEOSCorePlatform, Error, TEXT("[%s] " format), *FString(__FUNCTION__), ##__VA_ARGS__)
-#define LogWarning(format, ...) UE_LOG(LogEOSCorePlatform, Warning, TEXT("[%s] " format), *FString(__FUNCTION__), ##__VA_ARGS__)
-#define LogFatal(format, ...) UE_LOG(LogEOSCorePlatform, Fatal, TEXT("[%s] " format), *FString(__FUNCTION__), ##__VA_ARGS__)
