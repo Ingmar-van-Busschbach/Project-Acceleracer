@@ -1,0 +1,10 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"EOSCore": "UE4Editor-EOSCore.dll",
+		"EOSCoreEditor": "UE4Editor-EOSCoreEditor.dll",
+		"EOSCorePlatform": "UE4Editor-EOSCorePlatform.dll",
+		"OnlineSubsystemEOSCore": "UE4Editor-OnlineSubsystemEOSCore.dll"
+	}
+}
