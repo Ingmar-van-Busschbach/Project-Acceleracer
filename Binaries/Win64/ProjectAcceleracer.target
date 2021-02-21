@@ -55,7 +55,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/EOSCore/EOSCore.uplugin",
+			"Path": "$(ProjectDir)/Plugins/Marketplace/Marketplace/EOSCore/EOSCore.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -1503,7 +1503,7 @@
 			"Type": "DebugNonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/EOSCore/Source/ThirdParty/EOSLibrary/Bin/EOSSDK-Win64-Shipping.dll",
+			"Path": "$(ProjectDir)/Plugins/Marketplace/Marketplace/EOSCore/Source/ThirdParty/EOSLibrary/Bin/EOSSDK-Win64-Shipping.dll",
 			"Type": "NonUFS"
 		},
 		{
