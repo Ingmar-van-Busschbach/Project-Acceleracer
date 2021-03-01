@@ -1,7 +1,7 @@
 // Mattel(c), the creator of Hot Wheels(tm) Acceleracers(tm), is not affiliated or endorses this project in any shape, way or form. This project is a non-profit, open-source, fair use project made under US Copyright Act 1976 (USC), article 17, section 107 with entertainment purposes in mind.
 
-#include "math.h"
 #include "Quaternions.h"
+#include "math.h"
 
 static const FQuat RollAxis = FQuat(1, 0, 0, 0);
 static const FQuat PitchAxis = FQuat(0, 1, 0, 0);
