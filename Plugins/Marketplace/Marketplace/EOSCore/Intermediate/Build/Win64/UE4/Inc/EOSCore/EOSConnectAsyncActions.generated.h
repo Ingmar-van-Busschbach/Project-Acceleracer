@@ -1,0 +1,795 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FEOSConnectLoginCallbackInfo;
+class UObject;
+struct FEOSConnectLoginOptions;
+class UEOSCoreConnectLogin;
+struct FEOSConnectCreateUserCallbackInfo;
+struct FEOSConnectCreateUserOptions;
+class UEOSCoreConnectCreateUser;
+struct FEOSConnectLinkAccountCallbackInfo;
+struct FEOSConnectLinkAccountOptions;
+class UEOSCoreConnectLinkAccount;
+struct FEOSConnectUnlinkAccountCallbackInfo;
+struct FEOSConnectUnlinkAccountOptions;
+class UEOSCoreConnectUnlinkAccount;
+struct FEOSConnectCreateDeviceIdCallbackInfo;
+struct FEOSConnectCreateDeviceIdOptions;
+class UEOSCoreConnectCreateDeviceId;
+struct FEOSConnectDeleteDeviceIdCallbackInfo;
+struct FEOSConnectDeleteDeviceIdOptions;
+class UEOSCoreConnectDeleteDeviceId;
+struct FEOSConnectTransferDeviceIdAccountCallbackInfo;
+struct FEOSConnectTransferDeviceIdAccountOptions;
+class UEOSCoreConnectTransferDeviceIdAccount;
+struct FEOSConnectQueryExternalAccountMappingsCallbackInfo;
+struct FEOSConnectQueryExternalAccountMappingsOptions;
+class UEOSCoreConnectQueryExternalAccountMappings;
+struct FEOSConnectQueryProductUserIdMappingsCallbackInfo;
+struct FEOSConnectQueryProductUserIdMappingsOptions;
+class UEOSCoreConnectQueryProductUserIdMappings;
+#ifdef EOSCORE_EOSConnectAsyncActions_generated_h
+#error "EOSConnectAsyncActions.generated.h already included, missing '#pragma once' in EOSConnectAsyncActions.h"
+#endif
+#define EOSCORE_EOSConnectAsyncActions_generated_h
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectLoginAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectLoginAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectLogin(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectLogin_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectLogin, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectLogin)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectLogin(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectLogin_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectLogin, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectLogin)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreConnectLogin(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreConnectLogin) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectLogin); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectLogin); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectLogin(UEOSCoreConnectLogin&&); \
+	NO_API UEOSCoreConnectLogin(const UEOSCoreConnectLogin&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectLogin(UEOSCoreConnectLogin&&); \
+	NO_API UEOSCoreConnectLogin(const UEOSCoreConnectLogin&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectLogin); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectLogin); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreConnectLogin)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_16_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreConnectLogin>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectCreateUserAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectCreateUserAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectCreateUser(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectCreateUser_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectCreateUser, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectCreateUser)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectCreateUser(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectCreateUser_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectCreateUser, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectCreateUser)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreConnectCreateUser(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreConnectCreateUser) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectCreateUser); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectCreateUser); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectCreateUser(UEOSCoreConnectCreateUser&&); \
+	NO_API UEOSCoreConnectCreateUser(const UEOSCoreConnectCreateUser&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectCreateUser(UEOSCoreConnectCreateUser&&); \
+	NO_API UEOSCoreConnectCreateUser(const UEOSCoreConnectCreateUser&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectCreateUser); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectCreateUser); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreConnectCreateUser)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_55_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_58_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreConnectCreateUser>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectLinkAccountAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectLinkAccountAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectLinkAccount(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectLinkAccount_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectLinkAccount, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectLinkAccount)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectLinkAccount(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectLinkAccount_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectLinkAccount, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectLinkAccount)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreConnectLinkAccount(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreConnectLinkAccount) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectLinkAccount); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectLinkAccount); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectLinkAccount(UEOSCoreConnectLinkAccount&&); \
+	NO_API UEOSCoreConnectLinkAccount(const UEOSCoreConnectLinkAccount&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectLinkAccount(UEOSCoreConnectLinkAccount&&); \
+	NO_API UEOSCoreConnectLinkAccount(const UEOSCoreConnectLinkAccount&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectLinkAccount); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectLinkAccount); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreConnectLinkAccount)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_94_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_97_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreConnectLinkAccount>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectUnlinkAccountAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectUnlinkAccountAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectUnlinkAccount(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectUnlinkAccount_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectUnlinkAccount, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectUnlinkAccount)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectUnlinkAccount(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectUnlinkAccount_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectUnlinkAccount, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectUnlinkAccount)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreConnectUnlinkAccount(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreConnectUnlinkAccount) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectUnlinkAccount); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectUnlinkAccount); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectUnlinkAccount(UEOSCoreConnectUnlinkAccount&&); \
+	NO_API UEOSCoreConnectUnlinkAccount(const UEOSCoreConnectUnlinkAccount&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectUnlinkAccount(UEOSCoreConnectUnlinkAccount&&); \
+	NO_API UEOSCoreConnectUnlinkAccount(const UEOSCoreConnectUnlinkAccount&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectUnlinkAccount); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectUnlinkAccount); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreConnectUnlinkAccount)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_133_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_136_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreConnectUnlinkAccount>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectCreateDeviceIdAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectCreateDeviceIdAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectCreateDeviceId(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectCreateDeviceId_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectCreateDeviceId, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectCreateDeviceId)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectCreateDeviceId(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectCreateDeviceId_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectCreateDeviceId, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectCreateDeviceId)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreConnectCreateDeviceId(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreConnectCreateDeviceId) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectCreateDeviceId); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectCreateDeviceId); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectCreateDeviceId(UEOSCoreConnectCreateDeviceId&&); \
+	NO_API UEOSCoreConnectCreateDeviceId(const UEOSCoreConnectCreateDeviceId&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectCreateDeviceId(UEOSCoreConnectCreateDeviceId&&); \
+	NO_API UEOSCoreConnectCreateDeviceId(const UEOSCoreConnectCreateDeviceId&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectCreateDeviceId); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectCreateDeviceId); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreConnectCreateDeviceId)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_193_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_196_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreConnectCreateDeviceId>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectDeleteDeviceIdAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectDeleteDeviceIdAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectDeleteDeviceId(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectDeleteDeviceId_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectDeleteDeviceId, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectDeleteDeviceId)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectDeleteDeviceId(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectDeleteDeviceId_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectDeleteDeviceId, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectDeleteDeviceId)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreConnectDeleteDeviceId(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreConnectDeleteDeviceId) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectDeleteDeviceId); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectDeleteDeviceId); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectDeleteDeviceId(UEOSCoreConnectDeleteDeviceId&&); \
+	NO_API UEOSCoreConnectDeleteDeviceId(const UEOSCoreConnectDeleteDeviceId&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectDeleteDeviceId(UEOSCoreConnectDeleteDeviceId&&); \
+	NO_API UEOSCoreConnectDeleteDeviceId(const UEOSCoreConnectDeleteDeviceId&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectDeleteDeviceId); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectDeleteDeviceId); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreConnectDeleteDeviceId)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_252_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_255_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreConnectDeleteDeviceId>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectTransferDeviceIdAccountAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectTransferDeviceIdAccountAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectTransferDeviceIdAccount(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectTransferDeviceIdAccount_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectTransferDeviceIdAccount, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectTransferDeviceIdAccount)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectTransferDeviceIdAccount(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectTransferDeviceIdAccount_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectTransferDeviceIdAccount, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectTransferDeviceIdAccount)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreConnectTransferDeviceIdAccount(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreConnectTransferDeviceIdAccount) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectTransferDeviceIdAccount); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectTransferDeviceIdAccount); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectTransferDeviceIdAccount(UEOSCoreConnectTransferDeviceIdAccount&&); \
+	NO_API UEOSCoreConnectTransferDeviceIdAccount(const UEOSCoreConnectTransferDeviceIdAccount&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectTransferDeviceIdAccount(UEOSCoreConnectTransferDeviceIdAccount&&); \
+	NO_API UEOSCoreConnectTransferDeviceIdAccount(const UEOSCoreConnectTransferDeviceIdAccount&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectTransferDeviceIdAccount); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectTransferDeviceIdAccount); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreConnectTransferDeviceIdAccount)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_294_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_297_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreConnectTransferDeviceIdAccount>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectQueryExternalAccountMappingsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectQueryExternalAccountMappingsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectQueryExternalAccountMappings(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectQueryExternalAccountMappings_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectQueryExternalAccountMappings, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectQueryExternalAccountMappings)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectQueryExternalAccountMappings(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectQueryExternalAccountMappings_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectQueryExternalAccountMappings, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectQueryExternalAccountMappings)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreConnectQueryExternalAccountMappings(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreConnectQueryExternalAccountMappings) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectQueryExternalAccountMappings); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectQueryExternalAccountMappings); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectQueryExternalAccountMappings(UEOSCoreConnectQueryExternalAccountMappings&&); \
+	NO_API UEOSCoreConnectQueryExternalAccountMappings(const UEOSCoreConnectQueryExternalAccountMappings&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectQueryExternalAccountMappings(UEOSCoreConnectQueryExternalAccountMappings&&); \
+	NO_API UEOSCoreConnectQueryExternalAccountMappings(const UEOSCoreConnectQueryExternalAccountMappings&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectQueryExternalAccountMappings); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectQueryExternalAccountMappings); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreConnectQueryExternalAccountMappings)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_391_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_394_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreConnectQueryExternalAccountMappings>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectQueryProductUserIdMappingsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSConnectQueryProductUserIdMappingsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectQueryProductUserIdMappings(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectQueryProductUserIdMappings_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectQueryProductUserIdMappings, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectQueryProductUserIdMappings)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreConnectQueryProductUserIdMappings(); \
+	friend struct Z_Construct_UClass_UEOSCoreConnectQueryProductUserIdMappings_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreConnectQueryProductUserIdMappings, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreConnectQueryProductUserIdMappings)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreConnectQueryProductUserIdMappings(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreConnectQueryProductUserIdMappings) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectQueryProductUserIdMappings); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectQueryProductUserIdMappings); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectQueryProductUserIdMappings(UEOSCoreConnectQueryProductUserIdMappings&&); \
+	NO_API UEOSCoreConnectQueryProductUserIdMappings(const UEOSCoreConnectQueryProductUserIdMappings&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreConnectQueryProductUserIdMappings(UEOSCoreConnectQueryProductUserIdMappings&&); \
+	NO_API UEOSCoreConnectQueryProductUserIdMappings(const UEOSCoreConnectQueryProductUserIdMappings&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreConnectQueryProductUserIdMappings); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreConnectQueryProductUserIdMappings); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreConnectQueryProductUserIdMappings)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_430_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h_433_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreConnectQueryProductUserIdMappings>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Connect_EOSConnectAsyncActions_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

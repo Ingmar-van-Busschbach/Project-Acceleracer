@@ -1,0 +1,279 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FEOSAchievementsOnQueryDefinitionsCompleteCallbackInfo;
+class UObject;
+struct FEOSAchievementsQueryDefinitionsOptions;
+class UEOSCoreAchievementsQueryDefinitions;
+struct FEOSAchievementsOnQueryPlayerAchievementsCompleteCallbackInfo;
+struct FEOSAchievementsQueryPlayerAchievementsOptions;
+class UEOSCoreAchievementsQueryPlayerAchievements;
+struct FEOSAchievementsOnUnlockAchievementsCompleteCallbackInfo;
+struct FEOSAchievementsUnlockAchievementsOptions;
+class UEOSCoreAchievementsUnlockAchievements;
+#ifdef EOSCORE_EOSAchievementsAsyncActions_generated_h
+#error "EOSAchievementsAsyncActions.generated.h already included, missing '#pragma once' in EOSAchievementsAsyncActions.h"
+#endif
+#define EOSCORE_EOSAchievementsAsyncActions_generated_h
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAchievementsQueryDefinitionsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAchievementsQueryDefinitionsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAchievementsQueryDefinitions(); \
+	friend struct Z_Construct_UClass_UEOSCoreAchievementsQueryDefinitions_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAchievementsQueryDefinitions, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAchievementsQueryDefinitions)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAchievementsQueryDefinitions(); \
+	friend struct Z_Construct_UClass_UEOSCoreAchievementsQueryDefinitions_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAchievementsQueryDefinitions, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAchievementsQueryDefinitions)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreAchievementsQueryDefinitions(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreAchievementsQueryDefinitions) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAchievementsQueryDefinitions); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAchievementsQueryDefinitions); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAchievementsQueryDefinitions(UEOSCoreAchievementsQueryDefinitions&&); \
+	NO_API UEOSCoreAchievementsQueryDefinitions(const UEOSCoreAchievementsQueryDefinitions&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAchievementsQueryDefinitions(UEOSCoreAchievementsQueryDefinitions&&); \
+	NO_API UEOSCoreAchievementsQueryDefinitions(const UEOSCoreAchievementsQueryDefinitions&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAchievementsQueryDefinitions); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAchievementsQueryDefinitions); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreAchievementsQueryDefinitions)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_16_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreAchievementsQueryDefinitions>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAchievementsQueryPlayerAchievementsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAchievementsQueryPlayerAchievementsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAchievementsQueryPlayerAchievements(); \
+	friend struct Z_Construct_UClass_UEOSCoreAchievementsQueryPlayerAchievements_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAchievementsQueryPlayerAchievements, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAchievementsQueryPlayerAchievements)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAchievementsQueryPlayerAchievements(); \
+	friend struct Z_Construct_UClass_UEOSCoreAchievementsQueryPlayerAchievements_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAchievementsQueryPlayerAchievements, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAchievementsQueryPlayerAchievements)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreAchievementsQueryPlayerAchievements(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreAchievementsQueryPlayerAchievements) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAchievementsQueryPlayerAchievements); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAchievementsQueryPlayerAchievements); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAchievementsQueryPlayerAchievements(UEOSCoreAchievementsQueryPlayerAchievements&&); \
+	NO_API UEOSCoreAchievementsQueryPlayerAchievements(const UEOSCoreAchievementsQueryPlayerAchievements&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAchievementsQueryPlayerAchievements(UEOSCoreAchievementsQueryPlayerAchievements&&); \
+	NO_API UEOSCoreAchievementsQueryPlayerAchievements(const UEOSCoreAchievementsQueryPlayerAchievements&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAchievementsQueryPlayerAchievements); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAchievementsQueryPlayerAchievements); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreAchievementsQueryPlayerAchievements)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_60_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_63_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreAchievementsQueryPlayerAchievements>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAchievementsUnlockAchievements);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAchievementsUnlockAchievements);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAchievementsUnlockAchievements(); \
+	friend struct Z_Construct_UClass_UEOSCoreAchievementsUnlockAchievements_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAchievementsUnlockAchievements, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAchievementsUnlockAchievements)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAchievementsUnlockAchievements(); \
+	friend struct Z_Construct_UClass_UEOSCoreAchievementsUnlockAchievements_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAchievementsUnlockAchievements, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAchievementsUnlockAchievements)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreAchievementsUnlockAchievements(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreAchievementsUnlockAchievements) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAchievementsUnlockAchievements); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAchievementsUnlockAchievements); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAchievementsUnlockAchievements(UEOSCoreAchievementsUnlockAchievements&&); \
+	NO_API UEOSCoreAchievementsUnlockAchievements(const UEOSCoreAchievementsUnlockAchievements&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAchievementsUnlockAchievements(UEOSCoreAchievementsUnlockAchievements&&); \
+	NO_API UEOSCoreAchievementsUnlockAchievements(const UEOSCoreAchievementsUnlockAchievements&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAchievementsUnlockAchievements); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAchievementsUnlockAchievements); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreAchievementsUnlockAchievements)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_106_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h_109_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreAchievementsUnlockAchievements>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Achievements_EOSAchievementsAsyncActions_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

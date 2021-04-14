@@ -1,0 +1,365 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FEOSFriendsQueryFriendsCallbackInfo;
+class UObject;
+struct FEOSFriendsQueryFriendsOptions;
+class UEOSCoreFriendsQueryFriends;
+struct FEOSFriendsSendInviteCallbackInfo;
+struct FEOSFriendsSendInviteOptions;
+class UEOSCoreFriendsSendInvite;
+struct FEOSFriendsAcceptInviteCallbackInfo;
+struct FEOSFriendsAcceptInviteOptions;
+class UEOSCoreFriendsAcceptInvite;
+struct FEOSFriendsRejectInviteCallbackInfo;
+struct FEOSFriendsRejectInviteOptions;
+class UEOSCoreFriendsRejectInvite;
+#ifdef EOSCORE_EOSFriendsAsyncActions_generated_h
+#error "EOSFriendsAsyncActions.generated.h already included, missing '#pragma once' in EOSFriendsAsyncActions.h"
+#endif
+#define EOSCORE_EOSFriendsAsyncActions_generated_h
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSFriendsQueryFriendsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSFriendsQueryFriendsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreFriendsQueryFriends(); \
+	friend struct Z_Construct_UClass_UEOSCoreFriendsQueryFriends_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreFriendsQueryFriends, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreFriendsQueryFriends)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreFriendsQueryFriends(); \
+	friend struct Z_Construct_UClass_UEOSCoreFriendsQueryFriends_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreFriendsQueryFriends, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreFriendsQueryFriends)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreFriendsQueryFriends(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreFriendsQueryFriends) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreFriendsQueryFriends); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreFriendsQueryFriends); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreFriendsQueryFriends(UEOSCoreFriendsQueryFriends&&); \
+	NO_API UEOSCoreFriendsQueryFriends(const UEOSCoreFriendsQueryFriends&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreFriendsQueryFriends(UEOSCoreFriendsQueryFriends&&); \
+	NO_API UEOSCoreFriendsQueryFriends(const UEOSCoreFriendsQueryFriends&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreFriendsQueryFriends); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreFriendsQueryFriends); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreFriendsQueryFriends)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_16_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreFriendsQueryFriends>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSFriendsSendInviteAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSFriendsSendInviteAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreFriendsSendInvite(); \
+	friend struct Z_Construct_UClass_UEOSCoreFriendsSendInvite_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreFriendsSendInvite, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreFriendsSendInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreFriendsSendInvite(); \
+	friend struct Z_Construct_UClass_UEOSCoreFriendsSendInvite_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreFriendsSendInvite, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreFriendsSendInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreFriendsSendInvite(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreFriendsSendInvite) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreFriendsSendInvite); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreFriendsSendInvite); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreFriendsSendInvite(UEOSCoreFriendsSendInvite&&); \
+	NO_API UEOSCoreFriendsSendInvite(const UEOSCoreFriendsSendInvite&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreFriendsSendInvite(UEOSCoreFriendsSendInvite&&); \
+	NO_API UEOSCoreFriendsSendInvite(const UEOSCoreFriendsSendInvite&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreFriendsSendInvite); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreFriendsSendInvite); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreFriendsSendInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_57_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_60_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreFriendsSendInvite>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSFriendsAcceptInviteAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSFriendsAcceptInviteAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreFriendsAcceptInvite(); \
+	friend struct Z_Construct_UClass_UEOSCoreFriendsAcceptInvite_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreFriendsAcceptInvite, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreFriendsAcceptInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreFriendsAcceptInvite(); \
+	friend struct Z_Construct_UClass_UEOSCoreFriendsAcceptInvite_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreFriendsAcceptInvite, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreFriendsAcceptInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreFriendsAcceptInvite(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreFriendsAcceptInvite) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreFriendsAcceptInvite); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreFriendsAcceptInvite); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreFriendsAcceptInvite(UEOSCoreFriendsAcceptInvite&&); \
+	NO_API UEOSCoreFriendsAcceptInvite(const UEOSCoreFriendsAcceptInvite&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreFriendsAcceptInvite(UEOSCoreFriendsAcceptInvite&&); \
+	NO_API UEOSCoreFriendsAcceptInvite(const UEOSCoreFriendsAcceptInvite&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreFriendsAcceptInvite); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreFriendsAcceptInvite); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreFriendsAcceptInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_97_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_100_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreFriendsAcceptInvite>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSFriendsRejectInviteAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSFriendsRejectInviteAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreFriendsRejectInvite(); \
+	friend struct Z_Construct_UClass_UEOSCoreFriendsRejectInvite_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreFriendsRejectInvite, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreFriendsRejectInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreFriendsRejectInvite(); \
+	friend struct Z_Construct_UClass_UEOSCoreFriendsRejectInvite_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreFriendsRejectInvite, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreFriendsRejectInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreFriendsRejectInvite(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreFriendsRejectInvite) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreFriendsRejectInvite); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreFriendsRejectInvite); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreFriendsRejectInvite(UEOSCoreFriendsRejectInvite&&); \
+	NO_API UEOSCoreFriendsRejectInvite(const UEOSCoreFriendsRejectInvite&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreFriendsRejectInvite(UEOSCoreFriendsRejectInvite&&); \
+	NO_API UEOSCoreFriendsRejectInvite(const UEOSCoreFriendsRejectInvite&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreFriendsRejectInvite); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreFriendsRejectInvite); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreFriendsRejectInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_136_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h_139_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreFriendsRejectInvite>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Friends_EOSFriendsAsyncActions_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

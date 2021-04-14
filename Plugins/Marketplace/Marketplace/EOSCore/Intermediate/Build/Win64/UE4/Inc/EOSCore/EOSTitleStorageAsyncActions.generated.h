@@ -1,0 +1,365 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FEOSTitleStorageQueryFileCallbackInfo;
+class UObject;
+struct FEOSTitleStorageQueryFileOptions;
+class UEOSCoreTitleStorageQueryFile;
+struct FEOSTitleStorageQueryFileListCallbackInfo;
+struct FEOSTitleStorageQueryFileListOptions;
+class UEOSCoreTitleStorageQueryFileList;
+struct FEOSTitleStorageReadFileCallbackInfo;
+struct FEOSTitleStorageReadFileOptions;
+class UEOSCoreTitleStorageReadFile;
+struct FEOSTitleStorageDeleteCacheCallbackInfo;
+struct FEOSTitleStorageDeleteCacheOptions;
+class UEOSCoreTitleStorageDeleteCache;
+#ifdef EOSCORE_EOSTitleStorageAsyncActions_generated_h
+#error "EOSTitleStorageAsyncActions.generated.h already included, missing '#pragma once' in EOSTitleStorageAsyncActions.h"
+#endif
+#define EOSCORE_EOSTitleStorageAsyncActions_generated_h
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSTitleStorageQueryFileAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSTitleStorageQueryFileAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreTitleStorageQueryFile(); \
+	friend struct Z_Construct_UClass_UEOSCoreTitleStorageQueryFile_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreTitleStorageQueryFile, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreTitleStorageQueryFile)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreTitleStorageQueryFile(); \
+	friend struct Z_Construct_UClass_UEOSCoreTitleStorageQueryFile_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreTitleStorageQueryFile, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreTitleStorageQueryFile)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreTitleStorageQueryFile(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreTitleStorageQueryFile) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreTitleStorageQueryFile); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreTitleStorageQueryFile); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreTitleStorageQueryFile(UEOSCoreTitleStorageQueryFile&&); \
+	NO_API UEOSCoreTitleStorageQueryFile(const UEOSCoreTitleStorageQueryFile&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreTitleStorageQueryFile(UEOSCoreTitleStorageQueryFile&&); \
+	NO_API UEOSCoreTitleStorageQueryFile(const UEOSCoreTitleStorageQueryFile&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreTitleStorageQueryFile); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreTitleStorageQueryFile); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreTitleStorageQueryFile)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_16_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreTitleStorageQueryFile>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSTitleStorageQueryFileListAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSTitleStorageQueryFileListAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreTitleStorageQueryFileList(); \
+	friend struct Z_Construct_UClass_UEOSCoreTitleStorageQueryFileList_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreTitleStorageQueryFileList, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreTitleStorageQueryFileList)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreTitleStorageQueryFileList(); \
+	friend struct Z_Construct_UClass_UEOSCoreTitleStorageQueryFileList_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreTitleStorageQueryFileList, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreTitleStorageQueryFileList)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreTitleStorageQueryFileList(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreTitleStorageQueryFileList) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreTitleStorageQueryFileList); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreTitleStorageQueryFileList); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreTitleStorageQueryFileList(UEOSCoreTitleStorageQueryFileList&&); \
+	NO_API UEOSCoreTitleStorageQueryFileList(const UEOSCoreTitleStorageQueryFileList&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreTitleStorageQueryFileList(UEOSCoreTitleStorageQueryFileList&&); \
+	NO_API UEOSCoreTitleStorageQueryFileList(const UEOSCoreTitleStorageQueryFileList&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreTitleStorageQueryFileList); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreTitleStorageQueryFileList); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreTitleStorageQueryFileList)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_66_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_69_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreTitleStorageQueryFileList>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSTitleStorageReadFileAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSTitleStorageReadFileAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreTitleStorageReadFile(); \
+	friend struct Z_Construct_UClass_UEOSCoreTitleStorageReadFile_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreTitleStorageReadFile, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreTitleStorageReadFile)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreTitleStorageReadFile(); \
+	friend struct Z_Construct_UClass_UEOSCoreTitleStorageReadFile_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreTitleStorageReadFile, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreTitleStorageReadFile)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreTitleStorageReadFile(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreTitleStorageReadFile) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreTitleStorageReadFile); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreTitleStorageReadFile); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreTitleStorageReadFile(UEOSCoreTitleStorageReadFile&&); \
+	NO_API UEOSCoreTitleStorageReadFile(const UEOSCoreTitleStorageReadFile&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreTitleStorageReadFile(UEOSCoreTitleStorageReadFile&&); \
+	NO_API UEOSCoreTitleStorageReadFile(const UEOSCoreTitleStorageReadFile&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreTitleStorageReadFile); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreTitleStorageReadFile); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreTitleStorageReadFile)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_113_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_116_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreTitleStorageReadFile>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSTitleStorageDeleteCacheAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSTitleStorageDeleteCacheAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreTitleStorageDeleteCache(); \
+	friend struct Z_Construct_UClass_UEOSCoreTitleStorageDeleteCache_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreTitleStorageDeleteCache, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreTitleStorageDeleteCache)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreTitleStorageDeleteCache(); \
+	friend struct Z_Construct_UClass_UEOSCoreTitleStorageDeleteCache_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreTitleStorageDeleteCache, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreTitleStorageDeleteCache)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreTitleStorageDeleteCache(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreTitleStorageDeleteCache) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreTitleStorageDeleteCache); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreTitleStorageDeleteCache); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreTitleStorageDeleteCache(UEOSCoreTitleStorageDeleteCache&&); \
+	NO_API UEOSCoreTitleStorageDeleteCache(const UEOSCoreTitleStorageDeleteCache&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreTitleStorageDeleteCache(UEOSCoreTitleStorageDeleteCache&&); \
+	NO_API UEOSCoreTitleStorageDeleteCache(const UEOSCoreTitleStorageDeleteCache&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreTitleStorageDeleteCache); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreTitleStorageDeleteCache); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreTitleStorageDeleteCache)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_163_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h_166_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreTitleStorageDeleteCache>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_TitleStorage_EOSTitleStorageAsyncActions_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

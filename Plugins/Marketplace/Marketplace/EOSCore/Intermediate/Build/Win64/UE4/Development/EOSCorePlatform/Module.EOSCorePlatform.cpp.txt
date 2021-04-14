@@ -1,0 +1,7 @@
+D:/UE4 Projects/SourceControl/ProjectAcceleracer/Plugins/Marketplace/Marketplace/EOSCore/Source/EOSCorePlatform/Private/EOSCorePlatformModule.cpp
+D:\UE4 Projects\SourceControl\ProjectAcceleracer\Plugins\Marketplace\Marketplace\EOSCore\Source\EOSCorePlatform\Public\EOSCorePlatformModule.h
+D:\UE4 Projects\SourceControl\ProjectAcceleracer\Plugins\Marketplace\Marketplace\EOSCore\Intermediate\Build\Win64\UE4\Inc\EOSCorePlatform\EOSCorePlatformModule.generated.h
+D:\UE4 Projects\SourceControl\ProjectAcceleracer\Plugins\Marketplace\Marketplace\EOSCore\Source\EOSCorePlatform\Public\EOSPlatform.h
+D:\UE4 Projects\SourceControl\ProjectAcceleracer\Plugins\Marketplace\Marketplace\EOSCore\Source\EOSCorePlatform\Private\EOSCorePlatformLogging.h
+D:/UE4 Projects/SourceControl/ProjectAcceleracer/Plugins/Marketplace/Marketplace/EOSCore/Source/EOSCorePlatform/Private/EOSPlatform.cpp
+D:\UE4 Projects\SourceControl\ProjectAcceleracer\Plugins\Marketplace\Marketplace\EOSCore\Source\EOSCorePlatform\Private\EOSCorePlatformLogging.h

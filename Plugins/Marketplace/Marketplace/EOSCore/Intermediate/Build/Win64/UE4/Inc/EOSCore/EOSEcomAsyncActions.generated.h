@@ -1,0 +1,537 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FEOSEcomQueryOwnershipCallbackInfo;
+class UObject;
+struct FEOSEcomQueryOwnershipOptions;
+class UEOSCoreEcomQueryOwnership;
+struct FEOSEcomQueryOwnershipTokenCallbackInfo;
+struct FEOSEcomQueryOwnershipTokenOptions;
+class UEOSCoreEcomQueryOwnershipToken;
+struct FEOSEcomQueryEntitlementsCallbackInfo;
+struct FEOSEcomQueryEntitlementsOptions;
+class UEOSCoreEcomQueryEntitlements;
+struct FEOSEcomQueryOffersCallbackInfo;
+struct FEOSEcomQueryOffersOptions;
+class UEOSCoreEcomQueryOffers;
+struct FEOSEcomCheckoutCallbackInfo;
+struct FEOSEcomCheckoutOptions;
+class UEOSCoreEcomCheckout;
+struct FEOSEcomRedeemEntitlementsCallbackInfo;
+struct FEOSEcomRedeemEntitlementsOptions;
+class UEOSCoreEcomRedeemEntitlements;
+#ifdef EOSCORE_EOSEcomAsyncActions_generated_h
+#error "EOSEcomAsyncActions.generated.h already included, missing '#pragma once' in EOSEcomAsyncActions.h"
+#endif
+#define EOSCORE_EOSEcomAsyncActions_generated_h
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSEcomQueryOwnershipAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSEcomQueryOwnershipAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreEcomQueryOwnership(); \
+	friend struct Z_Construct_UClass_UEOSCoreEcomQueryOwnership_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreEcomQueryOwnership, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreEcomQueryOwnership)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreEcomQueryOwnership(); \
+	friend struct Z_Construct_UClass_UEOSCoreEcomQueryOwnership_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreEcomQueryOwnership, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreEcomQueryOwnership)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreEcomQueryOwnership(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreEcomQueryOwnership) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreEcomQueryOwnership); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreEcomQueryOwnership); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreEcomQueryOwnership(UEOSCoreEcomQueryOwnership&&); \
+	NO_API UEOSCoreEcomQueryOwnership(const UEOSCoreEcomQueryOwnership&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreEcomQueryOwnership(UEOSCoreEcomQueryOwnership&&); \
+	NO_API UEOSCoreEcomQueryOwnership(const UEOSCoreEcomQueryOwnership&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreEcomQueryOwnership); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreEcomQueryOwnership); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreEcomQueryOwnership)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_16_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreEcomQueryOwnership>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSEcomQueryOwnershipTokenAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSEcomQueryOwnershipTokenAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreEcomQueryOwnershipToken(); \
+	friend struct Z_Construct_UClass_UEOSCoreEcomQueryOwnershipToken_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreEcomQueryOwnershipToken, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreEcomQueryOwnershipToken)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreEcomQueryOwnershipToken(); \
+	friend struct Z_Construct_UClass_UEOSCoreEcomQueryOwnershipToken_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreEcomQueryOwnershipToken, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreEcomQueryOwnershipToken)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreEcomQueryOwnershipToken(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreEcomQueryOwnershipToken) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreEcomQueryOwnershipToken); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreEcomQueryOwnershipToken); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreEcomQueryOwnershipToken(UEOSCoreEcomQueryOwnershipToken&&); \
+	NO_API UEOSCoreEcomQueryOwnershipToken(const UEOSCoreEcomQueryOwnershipToken&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreEcomQueryOwnershipToken(UEOSCoreEcomQueryOwnershipToken&&); \
+	NO_API UEOSCoreEcomQueryOwnershipToken(const UEOSCoreEcomQueryOwnershipToken&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreEcomQueryOwnershipToken); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreEcomQueryOwnershipToken); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreEcomQueryOwnershipToken)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_55_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_58_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreEcomQueryOwnershipToken>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSEcomQueryEntitlementsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSEcomQueryEntitlementsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreEcomQueryEntitlements(); \
+	friend struct Z_Construct_UClass_UEOSCoreEcomQueryEntitlements_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreEcomQueryEntitlements, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreEcomQueryEntitlements)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreEcomQueryEntitlements(); \
+	friend struct Z_Construct_UClass_UEOSCoreEcomQueryEntitlements_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreEcomQueryEntitlements, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreEcomQueryEntitlements)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreEcomQueryEntitlements(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreEcomQueryEntitlements) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreEcomQueryEntitlements); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreEcomQueryEntitlements); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreEcomQueryEntitlements(UEOSCoreEcomQueryEntitlements&&); \
+	NO_API UEOSCoreEcomQueryEntitlements(const UEOSCoreEcomQueryEntitlements&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreEcomQueryEntitlements(UEOSCoreEcomQueryEntitlements&&); \
+	NO_API UEOSCoreEcomQueryEntitlements(const UEOSCoreEcomQueryEntitlements&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreEcomQueryEntitlements); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreEcomQueryEntitlements); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreEcomQueryEntitlements)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_94_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_97_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreEcomQueryEntitlements>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSEcomQueryOffersAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSEcomQueryOffersAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreEcomQueryOffers(); \
+	friend struct Z_Construct_UClass_UEOSCoreEcomQueryOffers_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreEcomQueryOffers, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreEcomQueryOffers)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreEcomQueryOffers(); \
+	friend struct Z_Construct_UClass_UEOSCoreEcomQueryOffers_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreEcomQueryOffers, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreEcomQueryOffers)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreEcomQueryOffers(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreEcomQueryOffers) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreEcomQueryOffers); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreEcomQueryOffers); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreEcomQueryOffers(UEOSCoreEcomQueryOffers&&); \
+	NO_API UEOSCoreEcomQueryOffers(const UEOSCoreEcomQueryOffers&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreEcomQueryOffers(UEOSCoreEcomQueryOffers&&); \
+	NO_API UEOSCoreEcomQueryOffers(const UEOSCoreEcomQueryOffers&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreEcomQueryOffers); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreEcomQueryOffers); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreEcomQueryOffers)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_136_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_139_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreEcomQueryOffers>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSEcomCheckoutAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSEcomCheckoutAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreEcomCheckout(); \
+	friend struct Z_Construct_UClass_UEOSCoreEcomCheckout_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreEcomCheckout, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreEcomCheckout)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreEcomCheckout(); \
+	friend struct Z_Construct_UClass_UEOSCoreEcomCheckout_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreEcomCheckout, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreEcomCheckout)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreEcomCheckout(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreEcomCheckout) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreEcomCheckout); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreEcomCheckout); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreEcomCheckout(UEOSCoreEcomCheckout&&); \
+	NO_API UEOSCoreEcomCheckout(const UEOSCoreEcomCheckout&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreEcomCheckout(UEOSCoreEcomCheckout&&); \
+	NO_API UEOSCoreEcomCheckout(const UEOSCoreEcomCheckout&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreEcomCheckout); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreEcomCheckout); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreEcomCheckout)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_175_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_178_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreEcomCheckout>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSEcomRedeemEntitlementsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSEcomRedeemEntitlementsAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreEcomRedeemEntitlements(); \
+	friend struct Z_Construct_UClass_UEOSCoreEcomRedeemEntitlements_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreEcomRedeemEntitlements, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreEcomRedeemEntitlements)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreEcomRedeemEntitlements(); \
+	friend struct Z_Construct_UClass_UEOSCoreEcomRedeemEntitlements_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreEcomRedeemEntitlements, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreEcomRedeemEntitlements)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreEcomRedeemEntitlements(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreEcomRedeemEntitlements) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreEcomRedeemEntitlements); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreEcomRedeemEntitlements); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreEcomRedeemEntitlements(UEOSCoreEcomRedeemEntitlements&&); \
+	NO_API UEOSCoreEcomRedeemEntitlements(const UEOSCoreEcomRedeemEntitlements&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreEcomRedeemEntitlements(UEOSCoreEcomRedeemEntitlements&&); \
+	NO_API UEOSCoreEcomRedeemEntitlements(const UEOSCoreEcomRedeemEntitlements&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreEcomRedeemEntitlements); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreEcomRedeemEntitlements); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreEcomRedeemEntitlements)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_218_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h_221_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreEcomRedeemEntitlements>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Ecom_EOSEcomAsyncActions_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

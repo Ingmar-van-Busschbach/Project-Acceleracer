@@ -1,0 +1,32 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OnlineSubsystemEOSCore.cpp.obj": [
+			"EOSCoreOnlinesubsystemTypes.cpp.obj",
+			"EOSCreateSessionCallbackProxy.cpp.obj",
+			"EOSDestroySessionCallbackProxy.cpp.obj",
+			"EOSFindSessionsCallbackProxy.cpp.obj",
+			"EOSJoinSessionCallbackProxy.cpp.obj",
+			"OnlineAchievementsInterfaceEOSCore.cpp.obj",
+			"OnlineFriendsInterfaceEOSCore.cpp.obj",
+			"OnlineIdentityInterfaceEOSCore.cpp.obj",
+			"OnlinePresenceInterfaceEOSCore.cpp.obj",
+			"OnlineSessionInterfaceEOSCore.cpp.obj",
+			"OnlineUserInterfaceEOSCore.cpp.obj",
+			"EOSCoreInternetAddr.cpp.obj",
+			"EOSCoreNetConnection.cpp.obj",
+			"EOSCoreNetDriver.cpp.obj",
+			"EOSCoreUniqueNetId.cpp.obj",
+			"OnlineSubsystemEOSCore.cpp.obj",
+			"OnlineSubsystemEOSCoreModule.cpp.obj",
+			"EOSSubsystemHelpers.cpp.obj"
+		],
+		"Module.OnlineSubsystemEOSCore.gen.cpp.obj": [
+			"EOSCoreNetConnection.gen.cpp.obj",
+			"EOSCoreNetDriver.gen.cpp.obj",
+			"EOSCreateSessionCallbackProxy.gen.cpp.obj",
+			"EOSSubsystemHelpers.gen.cpp.obj",
+			"OnlineSubsystemEOSCore.init.gen.cpp.obj"
+		]
+	}
+}

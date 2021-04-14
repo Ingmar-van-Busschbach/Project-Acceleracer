@@ -1,0 +1,968 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FEOSLobbyCreateLobbyCallbackInfo;
+class UObject;
+struct FEOSLobbyCreateLobbyOptions;
+class UEOSCoreLobbyCreateLobby;
+struct FEOSLobbyDestroyLobbyCallbackInfo;
+struct FEOSLobbyDestroyLobbyOptions;
+class UEOSCoreLobbyDestroyLobby;
+struct FEOSLobbyJoinLobbyCallbackInfo;
+struct FEOSLobbyJoinLobbyOptions;
+class UEOSCoreLobbyJoinLobby;
+struct FEOSLobbyLeaveLobbyCallbackInfo;
+struct FEOSLobbyLeaveLobbyOptions;
+class UEOSCoreLobbyLeaveLobby;
+struct FEOSLobbyUpdateLobbyCallbackInfo;
+struct FEOSLobbyUpdateLobbyOptions;
+class UEOSCoreLobbyUpdateLobby;
+struct FEOSLobbyPromoteMemberCallbackInfo;
+struct FEOSLobbyPromoteMemberOptions;
+class UEOSCoreLobbyPromoteMember;
+struct FEOSLobbyKickMemberCallbackInfo;
+struct FEOSLobbyKickMemberOptions;
+class UEOSCoreLobbyKickMember;
+struct FEOSLobbySendInviteCallbackInfo;
+struct FEOSLobbySendInviteOptions;
+class UEOSCoreLobbySendInvite;
+struct FEOSLobbyRejectInviteCallbackInfo;
+struct FEOSLobbyRejectInviteOptions;
+class UEOSCoreLobbyRejectInvite;
+struct FEOSLobbyQueryInvitesCallbackInfo;
+struct FEOSLobbyQueryInvitesOptions;
+class UEOSCoreLobbyQueryInvites;
+struct FEOSLobbySearchFindCallbackInfo;
+struct FEOSHLobbySearch;
+struct FEOSLobbySearchFindOptions;
+class UEOSCoreLobbySearchFind;
+#ifdef EOSCORE_EOSLobbyAsyncActions_generated_h
+#error "EOSLobbyAsyncActions.generated.h already included, missing '#pragma once' in EOSLobbyAsyncActions.h"
+#endif
+#define EOSCORE_EOSLobbyAsyncActions_generated_h
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyCreateLobbyAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyCreateLobbyAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyCreateLobby(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyCreateLobby_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyCreateLobby, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyCreateLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyCreateLobby(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyCreateLobby_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyCreateLobby, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyCreateLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreLobbyCreateLobby(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreLobbyCreateLobby) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyCreateLobby); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyCreateLobby); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyCreateLobby(UEOSCoreLobbyCreateLobby&&); \
+	NO_API UEOSCoreLobbyCreateLobby(const UEOSCoreLobbyCreateLobby&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyCreateLobby(UEOSCoreLobbyCreateLobby&&); \
+	NO_API UEOSCoreLobbyCreateLobby(const UEOSCoreLobbyCreateLobby&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyCreateLobby); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyCreateLobby); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreLobbyCreateLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_16_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreLobbyCreateLobby>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyDestroyLobbyAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyDestroyLobbyAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyDestroyLobby(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyDestroyLobby_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyDestroyLobby, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyDestroyLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyDestroyLobby(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyDestroyLobby_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyDestroyLobby, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyDestroyLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreLobbyDestroyLobby(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreLobbyDestroyLobby) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyDestroyLobby); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyDestroyLobby); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyDestroyLobby(UEOSCoreLobbyDestroyLobby&&); \
+	NO_API UEOSCoreLobbyDestroyLobby(const UEOSCoreLobbyDestroyLobby&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyDestroyLobby(UEOSCoreLobbyDestroyLobby&&); \
+	NO_API UEOSCoreLobbyDestroyLobby(const UEOSCoreLobbyDestroyLobby&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyDestroyLobby); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyDestroyLobby); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreLobbyDestroyLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_59_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_62_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreLobbyDestroyLobby>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyJoinLobbyAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyJoinLobbyAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyJoinLobby(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyJoinLobby_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyJoinLobby, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyJoinLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyJoinLobby(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyJoinLobby_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyJoinLobby, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyJoinLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreLobbyJoinLobby(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreLobbyJoinLobby) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyJoinLobby); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyJoinLobby); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyJoinLobby(UEOSCoreLobbyJoinLobby&&); \
+	NO_API UEOSCoreLobbyJoinLobby(const UEOSCoreLobbyJoinLobby&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyJoinLobby(UEOSCoreLobbyJoinLobby&&); \
+	NO_API UEOSCoreLobbyJoinLobby(const UEOSCoreLobbyJoinLobby&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyJoinLobby); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyJoinLobby); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreLobbyJoinLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_103_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_106_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreLobbyJoinLobby>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyLeaveLobbyAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyLeaveLobbyAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyLeaveLobby(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyLeaveLobby_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyLeaveLobby, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyLeaveLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyLeaveLobby(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyLeaveLobby_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyLeaveLobby, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyLeaveLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreLobbyLeaveLobby(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreLobbyLeaveLobby) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyLeaveLobby); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyLeaveLobby); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyLeaveLobby(UEOSCoreLobbyLeaveLobby&&); \
+	NO_API UEOSCoreLobbyLeaveLobby(const UEOSCoreLobbyLeaveLobby&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyLeaveLobby(UEOSCoreLobbyLeaveLobby&&); \
+	NO_API UEOSCoreLobbyLeaveLobby(const UEOSCoreLobbyLeaveLobby&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyLeaveLobby); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyLeaveLobby); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreLobbyLeaveLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_145_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_148_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreLobbyLeaveLobby>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyUpdateLobbyAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyUpdateLobbyAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyUpdateLobby(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyUpdateLobby_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyUpdateLobby, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyUpdateLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyUpdateLobby(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyUpdateLobby_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyUpdateLobby, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyUpdateLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreLobbyUpdateLobby(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreLobbyUpdateLobby) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyUpdateLobby); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyUpdateLobby); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyUpdateLobby(UEOSCoreLobbyUpdateLobby&&); \
+	NO_API UEOSCoreLobbyUpdateLobby(const UEOSCoreLobbyUpdateLobby&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyUpdateLobby(UEOSCoreLobbyUpdateLobby&&); \
+	NO_API UEOSCoreLobbyUpdateLobby(const UEOSCoreLobbyUpdateLobby&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyUpdateLobby); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyUpdateLobby); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreLobbyUpdateLobby)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_189_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_192_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreLobbyUpdateLobby>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyPromoteMemberAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyPromoteMemberAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyPromoteMember(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyPromoteMember_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyPromoteMember, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyPromoteMember)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyPromoteMember(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyPromoteMember_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyPromoteMember, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyPromoteMember)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreLobbyPromoteMember(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreLobbyPromoteMember) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyPromoteMember); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyPromoteMember); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyPromoteMember(UEOSCoreLobbyPromoteMember&&); \
+	NO_API UEOSCoreLobbyPromoteMember(const UEOSCoreLobbyPromoteMember&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyPromoteMember(UEOSCoreLobbyPromoteMember&&); \
+	NO_API UEOSCoreLobbyPromoteMember(const UEOSCoreLobbyPromoteMember&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyPromoteMember); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyPromoteMember); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreLobbyPromoteMember)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_233_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_236_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreLobbyPromoteMember>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyKickMemberAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyKickMemberAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyKickMember(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyKickMember_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyKickMember, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyKickMember)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyKickMember(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyKickMember_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyKickMember, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyKickMember)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreLobbyKickMember(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreLobbyKickMember) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyKickMember); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyKickMember); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyKickMember(UEOSCoreLobbyKickMember&&); \
+	NO_API UEOSCoreLobbyKickMember(const UEOSCoreLobbyKickMember&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyKickMember(UEOSCoreLobbyKickMember&&); \
+	NO_API UEOSCoreLobbyKickMember(const UEOSCoreLobbyKickMember&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyKickMember); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyKickMember); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreLobbyKickMember)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_277_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_280_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreLobbyKickMember>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbySendInviteAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbySendInviteAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbySendInvite(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbySendInvite_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbySendInvite, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbySendInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbySendInvite(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbySendInvite_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbySendInvite, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbySendInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreLobbySendInvite(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreLobbySendInvite) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbySendInvite); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbySendInvite); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbySendInvite(UEOSCoreLobbySendInvite&&); \
+	NO_API UEOSCoreLobbySendInvite(const UEOSCoreLobbySendInvite&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbySendInvite(UEOSCoreLobbySendInvite&&); \
+	NO_API UEOSCoreLobbySendInvite(const UEOSCoreLobbySendInvite&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbySendInvite); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbySendInvite); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreLobbySendInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_321_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_324_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreLobbySendInvite>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyRejectInviteAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyRejectInviteAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyRejectInvite(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyRejectInvite_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyRejectInvite, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyRejectInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyRejectInvite(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyRejectInvite_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyRejectInvite, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyRejectInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreLobbyRejectInvite(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreLobbyRejectInvite) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyRejectInvite); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyRejectInvite); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyRejectInvite(UEOSCoreLobbyRejectInvite&&); \
+	NO_API UEOSCoreLobbyRejectInvite(const UEOSCoreLobbyRejectInvite&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyRejectInvite(UEOSCoreLobbyRejectInvite&&); \
+	NO_API UEOSCoreLobbyRejectInvite(const UEOSCoreLobbyRejectInvite&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyRejectInvite); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyRejectInvite); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreLobbyRejectInvite)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_364_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_367_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreLobbyRejectInvite>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyQueryInvitesAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbyQueryInvitesAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyQueryInvites(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyQueryInvites_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyQueryInvites, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyQueryInvites)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbyQueryInvites(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbyQueryInvites_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbyQueryInvites, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbyQueryInvites)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreLobbyQueryInvites(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreLobbyQueryInvites) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyQueryInvites); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyQueryInvites); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyQueryInvites(UEOSCoreLobbyQueryInvites&&); \
+	NO_API UEOSCoreLobbyQueryInvites(const UEOSCoreLobbyQueryInvites&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbyQueryInvites(UEOSCoreLobbyQueryInvites&&); \
+	NO_API UEOSCoreLobbyQueryInvites(const UEOSCoreLobbyQueryInvites&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbyQueryInvites); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbyQueryInvites); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreLobbyQueryInvites)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_407_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_410_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreLobbyQueryInvites>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbySearchFindAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSLobbySearchFindAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbySearchFind(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbySearchFind_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbySearchFind, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbySearchFind)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreLobbySearchFind(); \
+	friend struct Z_Construct_UClass_UEOSCoreLobbySearchFind_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreLobbySearchFind, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreLobbySearchFind)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreLobbySearchFind(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreLobbySearchFind) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbySearchFind); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbySearchFind); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbySearchFind(UEOSCoreLobbySearchFind&&); \
+	NO_API UEOSCoreLobbySearchFind(const UEOSCoreLobbySearchFind&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreLobbySearchFind(UEOSCoreLobbySearchFind&&); \
+	NO_API UEOSCoreLobbySearchFind(const UEOSCoreLobbySearchFind&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreLobbySearchFind); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreLobbySearchFind); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreLobbySearchFind)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_447_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h_450_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreLobbySearchFind>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Lobby_EOSLobbyAsyncActions_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

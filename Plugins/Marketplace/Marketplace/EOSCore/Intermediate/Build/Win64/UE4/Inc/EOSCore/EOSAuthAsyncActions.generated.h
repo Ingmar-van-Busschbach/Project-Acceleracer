@@ -1,0 +1,451 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FEOSAuthLoginCallbackInfo;
+class UObject;
+struct FEOSAuthLoginOptions;
+class UEOSCoreAuthLogin;
+struct FEOSAuthLogoutCallbackInfo;
+struct FEOSAuthLogoutOptions;
+class UEOSCoreAuthLogout;
+struct FEOSAuthLinkAccountCallbackInfo;
+struct FEOSAuthLinkAccountOptions;
+class UEOSCoreAuthLinkAccount;
+struct FEOSAuthDeletePersistentAuthCallbackInfo;
+struct FEOSAuthDeletePersistentAuthOptions;
+class UEOSCoreAuthDeletePersistentAuth;
+struct FEOSAuthVerifyUserAuthCallbackInfo;
+struct FEOSAuthVerifyUserAuthOptions;
+class UEOSCoreAuthVerifyUserAuth;
+#ifdef EOSCORE_EOSAuthAsyncActions_generated_h
+#error "EOSAuthAsyncActions.generated.h already included, missing '#pragma once' in EOSAuthAsyncActions.h"
+#endif
+#define EOSCORE_EOSAuthAsyncActions_generated_h
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAuthLoginAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAuthLoginAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAuthLogin(); \
+	friend struct Z_Construct_UClass_UEOSCoreAuthLogin_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAuthLogin, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAuthLogin)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAuthLogin(); \
+	friend struct Z_Construct_UClass_UEOSCoreAuthLogin_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAuthLogin, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAuthLogin)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreAuthLogin(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreAuthLogin) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAuthLogin); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAuthLogin); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAuthLogin(UEOSCoreAuthLogin&&); \
+	NO_API UEOSCoreAuthLogin(const UEOSCoreAuthLogin&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAuthLogin(UEOSCoreAuthLogin&&); \
+	NO_API UEOSCoreAuthLogin(const UEOSCoreAuthLogin&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAuthLogin); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAuthLogin); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreAuthLogin)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_16_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreAuthLogin>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAuthLogoutAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAuthLogoutAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAuthLogout(); \
+	friend struct Z_Construct_UClass_UEOSCoreAuthLogout_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAuthLogout, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAuthLogout)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAuthLogout(); \
+	friend struct Z_Construct_UClass_UEOSCoreAuthLogout_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAuthLogout, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAuthLogout)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreAuthLogout(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreAuthLogout) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAuthLogout); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAuthLogout); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAuthLogout(UEOSCoreAuthLogout&&); \
+	NO_API UEOSCoreAuthLogout(const UEOSCoreAuthLogout&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAuthLogout(UEOSCoreAuthLogout&&); \
+	NO_API UEOSCoreAuthLogout(const UEOSCoreAuthLogout&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAuthLogout); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAuthLogout); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreAuthLogout)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_55_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_58_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreAuthLogout>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAuthLinkAccount);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAuthLinkAccount);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAuthLinkAccount(); \
+	friend struct Z_Construct_UClass_UEOSCoreAuthLinkAccount_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAuthLinkAccount, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAuthLinkAccount)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAuthLinkAccount(); \
+	friend struct Z_Construct_UClass_UEOSCoreAuthLinkAccount_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAuthLinkAccount, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAuthLinkAccount)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreAuthLinkAccount(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreAuthLinkAccount) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAuthLinkAccount); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAuthLinkAccount); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAuthLinkAccount(UEOSCoreAuthLinkAccount&&); \
+	NO_API UEOSCoreAuthLinkAccount(const UEOSCoreAuthLinkAccount&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAuthLinkAccount(UEOSCoreAuthLinkAccount&&); \
+	NO_API UEOSCoreAuthLinkAccount(const UEOSCoreAuthLinkAccount&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAuthLinkAccount); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAuthLinkAccount); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreAuthLinkAccount)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_94_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_97_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreAuthLinkAccount>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAuthDeletePersistentAuthAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAuthDeletePersistentAuthAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAuthDeletePersistentAuth(); \
+	friend struct Z_Construct_UClass_UEOSCoreAuthDeletePersistentAuth_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAuthDeletePersistentAuth, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAuthDeletePersistentAuth)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAuthDeletePersistentAuth(); \
+	friend struct Z_Construct_UClass_UEOSCoreAuthDeletePersistentAuth_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAuthDeletePersistentAuth, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAuthDeletePersistentAuth)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreAuthDeletePersistentAuth(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreAuthDeletePersistentAuth) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAuthDeletePersistentAuth); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAuthDeletePersistentAuth); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAuthDeletePersistentAuth(UEOSCoreAuthDeletePersistentAuth&&); \
+	NO_API UEOSCoreAuthDeletePersistentAuth(const UEOSCoreAuthDeletePersistentAuth&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAuthDeletePersistentAuth(UEOSCoreAuthDeletePersistentAuth&&); \
+	NO_API UEOSCoreAuthDeletePersistentAuth(const UEOSCoreAuthDeletePersistentAuth&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAuthDeletePersistentAuth); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAuthDeletePersistentAuth); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreAuthDeletePersistentAuth)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_141_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_144_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreAuthDeletePersistentAuth>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAuthVerifyUserAuthAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSAuthVerifyUserAuthAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAuthVerifyUserAuth(); \
+	friend struct Z_Construct_UClass_UEOSCoreAuthVerifyUserAuth_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAuthVerifyUserAuth, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAuthVerifyUserAuth)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCoreAuthVerifyUserAuth(); \
+	friend struct Z_Construct_UClass_UEOSCoreAuthVerifyUserAuth_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCoreAuthVerifyUserAuth, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCoreAuthVerifyUserAuth)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCoreAuthVerifyUserAuth(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCoreAuthVerifyUserAuth) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAuthVerifyUserAuth); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAuthVerifyUserAuth); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAuthVerifyUserAuth(UEOSCoreAuthVerifyUserAuth&&); \
+	NO_API UEOSCoreAuthVerifyUserAuth(const UEOSCoreAuthVerifyUserAuth&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCoreAuthVerifyUserAuth(UEOSCoreAuthVerifyUserAuth&&); \
+	NO_API UEOSCoreAuthVerifyUserAuth(const UEOSCoreAuthVerifyUserAuth&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCoreAuthVerifyUserAuth); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCoreAuthVerifyUserAuth); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCoreAuthVerifyUserAuth)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_185_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h_188_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCoreAuthVerifyUserAuth>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Auth_EOSAuthAsyncActions_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

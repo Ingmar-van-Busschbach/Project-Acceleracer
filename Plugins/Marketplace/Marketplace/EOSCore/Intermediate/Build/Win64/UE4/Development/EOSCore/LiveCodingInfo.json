@@ -1,0 +1,142 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EOSCore.cpp.obj": [
+			"EOSAchievements.cpp.obj",
+			"EOSAchievementsAsyncActions.cpp.obj",
+			"EOSAchievementsTypes.cpp.obj",
+			"EOSAuthAsyncActions.cpp.obj",
+			"EOSAuthentication.cpp.obj",
+			"EOSAuthTypes.cpp.obj",
+			"EOSChat.cpp.obj",
+			"EOSConnect.cpp.obj",
+			"EOSConnectAsyncActions.cpp.obj",
+			"EOSConnectTypes.cpp.obj",
+			"EOSCoreAsync.cpp.obj",
+			"EOSCoreLibrary.cpp.obj",
+			"EOSHelpers.cpp.obj",
+			"EOSTypes.cpp.obj",
+			"EOSEcom.cpp.obj",
+			"EOSEcomAsyncActions.cpp.obj",
+			"EOSEcomTypes.cpp.obj",
+			"EOSCoreModule.cpp.obj",
+			"EOSFriends.cpp.obj",
+			"EOSFriendsAsyncActions.cpp.obj",
+			"EOSFriendsTypes.cpp.obj",
+			"EOSLeaderboards.cpp.obj",
+			"EOSLeaderboardsAsyncActions.cpp.obj",
+			"EOSLeaderboardsTypes.cpp.obj",
+			"EOSLobby.cpp.obj",
+			"EOSLobbyAsyncActions.cpp.obj",
+			"EOSLobbyTypes.cpp.obj",
+			"EOSMetrics.cpp.obj",
+			"EOSMetricsTypes.cpp.obj",
+			"EOSP2P.cpp.obj",
+			"EOSP2PAsyncActions.cpp.obj",
+			"EOSP2PTypes.cpp.obj",
+			"EOSPlayerDataStorage.cpp.obj",
+			"EOSPlayerDataStorageAsyncActions.cpp.obj",
+			"EOSPlayerDataStorageTypes.cpp.obj",
+			"EOSPresence.cpp.obj",
+			"EOSPresenceAsyncActions.cpp.obj",
+			"EOSPresenceTypes.cpp.obj",
+			"EOSSessions.cpp.obj",
+			"EOSSessionsAsyncActions.cpp.obj",
+			"EOSSessionsTypes.cpp.obj",
+			"EOSStats.cpp.obj",
+			"EOSStatsAsyncActions.cpp.obj",
+			"EOSStatsTypes.cpp.obj",
+			"EOSTitleStorage.cpp.obj",
+			"EOSTitleStorageAsyncActions.cpp.obj",
+			"EOSTitleStorageTypes.cpp.obj",
+			"EOSUI.cpp.obj",
+			"EOSUIAsyncActions.cpp.obj",
+			"EOSUITypes.cpp.obj",
+			"EOSUserInfo.cpp.obj",
+			"EOSUserInfoAsyncActions.cpp.obj",
+			"EOSUserInfoTypes.cpp.obj"
+		],
+		"Module.EOSCore.gen.1_of_15.cpp.obj": [
+			"EOSAchievements.gen.cpp.obj",
+			"EOSAchievementsAsyncActions.gen.cpp.obj",
+			"EOSAchievementsTypes.gen.cpp.obj",
+			"EOSAuthAsyncActions.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.2_of_15.cpp.obj": [
+			"EOSAuthentication.gen.cpp.obj",
+			"EOSAuthTypes.gen.cpp.obj",
+			"EOSChat.gen.cpp.obj",
+			"EOSConnect.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.3_of_15.cpp.obj": [
+			"EOSConnectAsyncActions.gen.cpp.obj",
+			"EOSConnectTypes.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.4_of_15.cpp.obj": [
+			"EOSCore.init.gen.cpp.obj",
+			"EOSCoreAsync.gen.cpp.obj",
+			"EOSCoreLibrary.gen.cpp.obj",
+			"EOSCoreModule.gen.cpp.obj",
+			"EOSEcom.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.5_of_15.cpp.obj": [
+			"EOSEcomAsyncActions.gen.cpp.obj",
+			"EOSEcomTypes.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.6_of_15.cpp.obj": [
+			"EOSFriends.gen.cpp.obj",
+			"EOSFriendsAsyncActions.gen.cpp.obj",
+			"EOSFriendsTypes.gen.cpp.obj",
+			"EOSLeaderboards.gen.cpp.obj",
+			"EOSLeaderboardsAsyncActions.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.7_of_15.cpp.obj": [
+			"EOSLeaderboardsTypes.gen.cpp.obj",
+			"EOSLobby.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.8_of_15.cpp.obj": [
+			"EOSLobbyAsyncActions.gen.cpp.obj",
+			"EOSLobbyTypes.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.9_of_15.cpp.obj": [
+			"EOSMetrics.gen.cpp.obj",
+			"EOSMetricsTypes.gen.cpp.obj",
+			"EOSP2P.gen.cpp.obj",
+			"EOSP2PTypes.gen.cpp.obj",
+			"EOSPlayerDataStorage.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.10_of_15.cpp.obj": [
+			"EOSPlayerDataStorageAsyncActions.gen.cpp.obj",
+			"EOSPlayerDataStorageTypes.gen.cpp.obj",
+			"EOSPresence.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.11_of_15.cpp.obj": [
+			"EOSPresenceAsyncActions.gen.cpp.obj",
+			"EOSPresenceTypes.gen.cpp.obj",
+			"EOSSessions.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.12_of_15.cpp.obj": [
+			"EOSSessionsAsyncActions.gen.cpp.obj",
+			"EOSSessionsTypes.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.13_of_15.cpp.obj": [
+			"EOSStats.gen.cpp.obj",
+			"EOSStatsAsyncActions.gen.cpp.obj",
+			"EOSStatsTypes.gen.cpp.obj",
+			"EOSTitleStorage.gen.cpp.obj",
+			"EOSTitleStorageAsyncActions.gen.cpp.obj",
+			"EOSTitleStorageTypes.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.14_of_15.cpp.obj": [
+			"EOSTypes.gen.cpp.obj",
+			"EOSUI.gen.cpp.obj",
+			"EOSUIAsyncActions.gen.cpp.obj",
+			"EOSUITypes.gen.cpp.obj",
+			"EOSUserInfo.gen.cpp.obj",
+			"EOSUserInfoAsyncActions.gen.cpp.obj"
+		],
+		"Module.EOSCore.gen.15_of_15.cpp.obj": [
+			"EOSUserInfoTypes.gen.cpp.obj"
+		]
+	}
+}

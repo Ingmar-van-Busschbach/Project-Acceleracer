@@ -1,0 +1,193 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FEOSPresenceQueryPresenceCallbackInfo;
+class UObject;
+struct FEOSPresenceQueryPresenceOptions;
+class UEOSCorePresenceQueryPresence;
+struct FEOSPresenceSetPresenceCallbackInfo;
+struct FEOSPresenceSetPresenceOptions;
+class UEOSCorePresenceSetPresence;
+#ifdef EOSCORE_EOSPresenceAsyncActions_generated_h
+#error "EOSPresenceAsyncActions.generated.h already included, missing '#pragma once' in EOSPresenceAsyncActions.h"
+#endif
+#define EOSCORE_EOSPresenceAsyncActions_generated_h
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSPresenceQueryPresenceAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSPresenceQueryPresenceAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCorePresenceQueryPresence(); \
+	friend struct Z_Construct_UClass_UEOSCorePresenceQueryPresence_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCorePresenceQueryPresence, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCorePresenceQueryPresence)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCorePresenceQueryPresence(); \
+	friend struct Z_Construct_UClass_UEOSCorePresenceQueryPresence_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCorePresenceQueryPresence, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCorePresenceQueryPresence)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCorePresenceQueryPresence(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCorePresenceQueryPresence) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCorePresenceQueryPresence); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCorePresenceQueryPresence); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCorePresenceQueryPresence(UEOSCorePresenceQueryPresence&&); \
+	NO_API UEOSCorePresenceQueryPresence(const UEOSCorePresenceQueryPresence&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCorePresenceQueryPresence(UEOSCorePresenceQueryPresence&&); \
+	NO_API UEOSCorePresenceQueryPresence(const UEOSCorePresenceQueryPresence&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCorePresenceQueryPresence); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCorePresenceQueryPresence); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCorePresenceQueryPresence)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_16_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCorePresenceQueryPresence>();
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_SPARSE_DATA
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSPresenceSetPresenceAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleCallback); \
+	DECLARE_FUNCTION(execEOSPresenceSetPresenceAsync);
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEOSCorePresenceSetPresence(); \
+	friend struct Z_Construct_UClass_UEOSCorePresenceSetPresence_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCorePresenceSetPresence, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCorePresenceSetPresence)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_INCLASS \
+private: \
+	static void StaticRegisterNativesUEOSCorePresenceSetPresence(); \
+	friend struct Z_Construct_UClass_UEOSCorePresenceSetPresence_Statics; \
+public: \
+	DECLARE_CLASS(UEOSCorePresenceSetPresence, UEOSCoreAsyncAction, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/EOSCore"), NO_API) \
+	DECLARE_SERIALIZER(UEOSCorePresenceSetPresence)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEOSCorePresenceSetPresence(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEOSCorePresenceSetPresence) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCorePresenceSetPresence); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCorePresenceSetPresence); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCorePresenceSetPresence(UEOSCorePresenceSetPresence&&); \
+	NO_API UEOSCorePresenceSetPresence(const UEOSCorePresenceSetPresence&); \
+public:
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEOSCorePresenceSetPresence(UEOSCorePresenceSetPresence&&); \
+	NO_API UEOSCorePresenceSetPresence(const UEOSCorePresenceSetPresence&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEOSCorePresenceSetPresence); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEOSCorePresenceSetPresence); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEOSCorePresenceSetPresence)
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_PRIVATE_PROPERTY_OFFSET
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_56_PROLOG
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_RPC_WRAPPERS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_INCLASS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_PRIVATE_PROPERTY_OFFSET \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_SPARSE_DATA \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_INCLASS_NO_PURE_DECLS \
+	ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h_59_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> EOSCORE_API UClass* StaticClass<class UEOSCorePresenceSetPresence>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID ProjectAcceleracer_Plugins_Marketplace_Marketplace_EOSCore_Source_EOSCore_Public_Presence_EOSPresenceAsyncActions_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

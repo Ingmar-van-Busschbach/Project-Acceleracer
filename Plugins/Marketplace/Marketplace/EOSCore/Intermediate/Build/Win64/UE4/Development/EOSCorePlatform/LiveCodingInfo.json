@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EOSCorePlatform.cpp.obj": [
+			"EOSCorePlatformModule.cpp.obj",
+			"EOSPlatform.cpp.obj"
+		],
+		"Module.EOSCorePlatform.gen.cpp.obj": [
+			"EOSCorePlatform.init.gen.cpp.obj",
+			"EOSCorePlatformModule.gen.cpp.obj"
+		]
+	}
+}
