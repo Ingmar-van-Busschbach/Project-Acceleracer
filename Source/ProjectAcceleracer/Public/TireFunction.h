@@ -7,7 +7,6 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "WheeledVehicleMovementComponent4W.h"
 #include "TireConfig.h"
-
 #include "TireFunction.generated.h"
 
 
@@ -43,5 +42,5 @@ class PROJECTACCELERACER_API UTireFunction : public UBlueprintFunctionLibrary
 		UFUNCTION(BlueprintCallable)
 		static void switchTires(UWheeledVehicleMovementComponent* Component, UTireConfig* Tire);
 		UFUNCTION(BlueprintCallable)
-			static void checkVelocity(UWheeledVehicleMovementComponent* Component);
+		static void checkVelocity(UWheeledVehicleMovementComponent* Component);
 };
