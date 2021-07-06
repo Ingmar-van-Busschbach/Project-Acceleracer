@@ -36,6 +36,7 @@
 #define UBT_COMPILED_PLATFORM Win64
 #define UBT_COMPILED_TARGET Game
 #define UE_APP_NAME "UE4"
+#define UE_ENGINE_DIRECTORY "C:/Program Files/Epic Games/UE_4.25/Engine/"
 #define NDIS_MINIPORT_MAJOR_VERSION 0
 #define WIN32 1
 #define _WIN32_WINNT 0x0601
@@ -46,7 +47,6 @@
 #define RHI_RAYTRACING 1
 #define NDEBUG 1
 #define UE_BUILD_DEVELOPMENT 1
-#define UE_ENGINE_DIRECTORY "C:/Program Files/Epic Games/UE_4.25/Engine/"
 #define UE_IS_ENGINE_MODULE 0
 #define UE_PROJECT_NAME ProjectAcceleracer
 #define UE_TARGET_NAME ProjectAcceleracer
