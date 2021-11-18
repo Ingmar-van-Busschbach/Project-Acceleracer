@@ -15,7 +15,7 @@ Project Acceleracer is my largest project I have worked on, with over 20 contrib
 This racing game uses simple racing mechanics alongside powerups and abilities, as well as complex levels that each test a different skill of the driver.
 
 #### Controls and car mechanics:
-Base driving is handled by W/S for throttle, A/D for steering and Spacebar for handbrake.
+Base driving is handled by W/S for throttle, A/D for steering and Spacebar for handbrake. Driving is complex however because each car handles differently. Different drivetrains, grip levels, RPM ranges, balance, acceleration, top speed, etc.
 
 #### Abilities:
 Abilities feature booster fuel which inscrease speed, as well as an ability depending on which "Team" the car is assigned:
