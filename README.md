@@ -31,6 +31,7 @@ Each track is unique and made with spline tracks, decorative items, and unreal's
  - "Ice realm" track tests how the driver can control their car on low grip ice.
  - "Storm realm" track hits the car with devastating lightning if you don't drive on the racing line.
  - "Desert realm" track makes you navigate through a desert with only landmarks at your disposal.
+ - "Cosmic realm" track disables gravity while keeping downforce enabled, forcing you to drive smoothly at a constant speed to keep your car on the track.
 
 Progression:
 Each track offers a new car unlock for completion, as well as either an "Accelecharger" powerup unlock, or a second car, for completing the track withing a certain time limit. The game itself keeps track of completion times, making the game suitable for speedrunning.
