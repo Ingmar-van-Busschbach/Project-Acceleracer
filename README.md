@@ -1,5 +1,7 @@
 # Project Acceleracer
 
+Project Acceleracer is my largest project I have worked on, with over 20 contributors doing all sorts of work and over 5000 players.
+
 ## Summary:
 - Fan Made
 - Race Game
@@ -7,8 +9,6 @@
 - Unreal Engine
 - P2P NAT Punchtrough local host multiplayer
 - Graphics optimizations
-
-Project Acceleracer is my largest project I have worked on, with over 20 contributors doing all sorts of work and over 5000 players.
 
 ![Introduction image](https://www.ingmarmatthis.nl/images/mainBackground4.png)
 
