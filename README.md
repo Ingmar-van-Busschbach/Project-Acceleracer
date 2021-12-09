@@ -1,6 +1,6 @@
 # Project Acceleracer
 
-Project Acceleracer is my largest project I have worked on, with over 20 contributors doing all sorts of work and over 5000 players.
+Project Acceleracer is my largest project I have worked on, with over 20 contributors doing all sorts of work and over 5000 players. This is an old backup github repo, live development is done through a locally hosted gitlab server by one of the developers.
 
 ## Summary:
 - Fan Made
